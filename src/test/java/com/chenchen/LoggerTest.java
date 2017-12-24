@@ -17,6 +17,7 @@ public class LoggerTest {
     @Test
     public void test(){
         String name = "chenchen";
+        String value = "myname";
         log.debug("debug:{}",name);
         log.warn("warn:{}",name);
         log.info("info:{}",name);
